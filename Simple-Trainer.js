@@ -135,6 +135,9 @@ var world_cheats_var={
 var vehicle_god=false;
 var trainer_active=false;
 var spawner_state=0;
+
+
+
 function teleport_to_waypoint(player){
 	
 	var cordinatex=Memory.ReadFloat(memoryaddress[2].waypoint.x, false, true);
@@ -385,7 +388,7 @@ function generate_menu(){
 function generate_trainer_menu(){
 	
 	//Memory.Write(test,4,1,false,false)
-	var menu=Menu.Create("test",10,150,200.0,1,true,true,0);
+
 	
 	
 	Widget.CreateShopMenu("Simple Trainer");
