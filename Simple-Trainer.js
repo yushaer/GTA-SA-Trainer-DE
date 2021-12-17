@@ -91,9 +91,23 @@ weather[19]=["DEBW18",19];
 
 
 const times =[["+1hour",1],["-1hour",-1]];
-const player_cheats=[["God",godmode,false],["Money",giveMoney,false],["Armour",full_armour,false],["Remove Wanted",remove_wanted,false],["No Pigs",toggle_police,false],["GTASA_PublicEnemy_DESC",fully_wanted,false],["FES_WEA",weapon_selector,true],["Ammo",ammo,false],["Perfect CJ",perfect_cj,false]]
+var  memoryaddress={
+	"1":{
+		"waypoint":{"x":0x5292AF8,"y":0x5292AFC},
+	},
+	"2":{
+		"waypoint":{"x":0x52A1978,"y":0x52A197C}
+
+	}
+
+	
+
+	
+}
+const player_cheats=[["God",godmode,false],["teleport to waypoint",teleport_to_waypoint,false],["Money",giveMoney,false],["Armour",full_armour,false],["Remove Wanted",remove_wanted,false],["No Pigs",toggle_police,false],["GTASA_PublicEnemy_DESC",fully_wanted,false],["FES_WEA",weapon_selector,true],["Ammo",ammo,false],["Perfect CJ",perfect_cj,false]]
 const trainer=[["player",generate_player_menu,true],["Vehicle",generate_vehicle_menu,true],["Vehicle Spawner",vehicle_spawner,true],["Weather",generate_weather_menu,true],["Time",generate_time_menu,true]]
 const vehicle_menu=[["God",vehicle_godmode,false],["repair",repair_vehicle,false],["nitro",add_nitro,false], ["hydrolics",add_hydrolics,false],["p-color",generate_color_menu,true],["s-color",generate_color_menu,true]]
+const teleport_menu=[["marker",teleport_to_waypoint,false]]
 //variables
 const vehicle_state=0;
 
@@ -110,11 +124,24 @@ var player_cheats_var={
 	weapon_catagory:null
 
 };
+var world_cheats_var={
+	lockdown:false,
+	riot:false,
+	menu_state:0
+
+}
 
 
 var vehicle_god=false;
 var trainer_active=false;
 var spawner_state=0;
+function teleport_to_waypoint(player){
+	
+	var cordinatex=Memory.ReadFloat(memoryaddress[2].waypoint.x, false, true);
+	var cordinatey =Memory.ReadFloat(memoryaddress[2].waypoint.y,false,true)
+	log("cordinates "+cordinatex +', ' +cordinatey)
+	player.getChar().setCoordinates(cordinatex,cordinatey,-100)
+}
 function check_if_in_vehicle(player){
 	var char=player.getChar();
 	if(	char.isInAnyCar() || char.isInAnyHeli()||char.isInAnyPlane()|| char.isInAnyBoat() ){
@@ -125,8 +152,11 @@ function check_if_in_vehicle(player){
 	}
 }
 function toggle_police(player){
+	
 	player_cheats_var.never_wanted=!player_cheats_var.never_wanted;
-	player.getChar().setWantedByPolice(false);
+	player.getChar().setWantedByPolice(!player_cheats_var.never_wanted);
+	
+	player.setIgnorePolice(player_cheats_var.never_wanted)
 
 }
 function add_hydrolics(player){
@@ -179,6 +209,7 @@ function vehicle_godmode(player){
 		log("no car");
 	}
 }
+
 function perfect_cj(player){
 	var body = stats["perfect-body"];
 	for(var i=0;i<body.length;i++){
@@ -193,6 +224,8 @@ function perfect_cj(player){
 	player.buildModel();
 }
 function godmode(player){
+	 
+	// read
 	
 	player_cheats_var.enable_god=!player_cheats_var.enable_god;
 
@@ -238,6 +271,7 @@ function generate_gxt_list(keyword,length){
 	}
 	return list;
 }
+
 function weapon_selector(player){
 	player_cheats_var.menu_state=1;
 	Widget.CreateShopMenu("Weapons");
@@ -324,7 +358,12 @@ function generate_time_menu(){
 		Widget.AddShopItem(times[i][0],0);
 	}
 }
+
 function generate_weather_menu(){
+
+	
+
+	 
 	state=3;
 	Widget.CreateShopMenu("Weather");
 	for(var i=0;i<weather.length;i++){
@@ -344,8 +383,13 @@ function generate_menu(){
 	}
 }
 function generate_trainer_menu(){
+	
+	//Memory.Write(test,4,1,false,false)
 	var menu=Menu.Create("test",10,150,200.0,1,true,true,0);
+	
+	
 	Widget.CreateShopMenu("Simple Trainer");
+	
 	for( var i =0; i<trainer.length;i++){
 		
 		
@@ -422,6 +466,7 @@ function time(){
 }
 //player cheats
 function player_cheat(){
+	
 	if(Widget.IsReleased(55)){
 
 
