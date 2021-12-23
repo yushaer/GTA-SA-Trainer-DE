@@ -862,6 +862,9 @@ while (true) {
 
 	
 	if (Pad.IsKeyPressed(Trainer_Key)){
+		while(Pad.IsKeyPressed(Trainer_Key)){
+			wait(0)
+		}
 
 		//vehicle_godmode();
 		trainer_active=!trainer_active;
@@ -882,11 +885,12 @@ while (true) {
 		}
 		else{
 			unpause();
+			Widget.Delete(146);
 		
 		}
 
 		//Text.ClearHelp();
-		wait(200);
+		//wait(200);
 	//	fully_wanted(player)
 	}
 	 
