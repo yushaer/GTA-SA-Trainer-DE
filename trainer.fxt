@@ -1,62 +1,67 @@
-smpl Simple Trainer
+trn1 Simple Trainer
 g_true God Mode Enabled
 g_false God Mode Disabled
 ritrue Riot Mode Enabled
 rifalse Riot Mode Disabled
-money money 
-pigs no pigs
-remwtl Clear Wanted Level
-6want Full Wanted Level
-weap_s Weapon Selector
-weath Weather
-time Time
-vehicl Vehicle Options
-plyr Player Options
-vmods vehicle mods
-pcolor Primary Color
-scolor Secondary Color
-isp  Infinite Sprint Disabled
-ammo Ammo 
-farmour Full Armour
-hydro Add Hydrolics
-nitro Add Nitro
-wrld World
-pcj Perfect CJ
-hand Hand
-melee Melee Weapons
-pistols Pistols
-shot Shotguns
-smg SMGS
-ar Assault Rifles
-srifle  Snipers & Rifles
-heavy Heavy Weapons
-thrown Explosives
-special1 Special 1
-gift Gifts
-special2 Special 2
-dtn Detonator
+trn2 money 
+trn3 no pigs
+trn4 Clear Wanted Level
+trn5 Full Wanted Level
+trn6 Weapon Selector
+trn7 Weather
+trn8 Time
+trn9 Vehicle Options
+trn10 Player Options
+trn11 vehicle mods
+trn12 Primary Color
+trn13 Secondary Color
+isp Infinite Sprint Disabled
+sjtrue Super jump Enabled
+sjfalse Super jump Disabled
+trn14 Ammo 
+trn15 Full Armour
+trn16 Add Hydrolics
+trn17 Add Nitro
+trn18 World
+trn19 Perfect CJ
+trn20 Vehicle Color
+trn21 Vehicle Spawner
+trn22 Teleport
+trn23 Add hour
+trn24 Subtract hour
+WC1 Hand
+WC2 Melee Weapons
+WC3 Pistols
+WC4 Shotguns
+WC5 SMGS
+WC6 Assault Rifles
+WC7 Snipers & Rifles
+WC8 Heavy Weapons
+WC9 Explosives
+WC10 Special 1
+WC11 Gifts
+WC12 Special 2
+WC13 Detonator
 sniper Sniper
 rifle Rifle
 repair Repair Vehicle
-loc_true Covid Lockdown Enabled
-loc_false Covid Lockdown Disabled
+lctrue Covid Lockdown Enabled
+lcfalse Covid Lockdown Disabled
 riot Riot
-vcolor Vehicle Color
-vspawn Vehicle Spawner
-bikes Bikes
-2-door 2-Door & Compact cars
-4-Door 4-Door & Luxury cars
-Civil Civil service 
-Government Government vehicles
-Heavy Heavy & Utility trucks
-SUVs SUVs & Wagons
-Low Lowriders
-Muscle Muscle cars
-Street Street racers
-Planes Planes
-Heli Helicopters
-Boats Boats
-Light Light trucks & Vans
+VC1 Bikes
+VC2 2-Door & Compact cars
+VC3 4-Door & Luxury cars
+VC4 Civil service 
+VC5 Government vehicles
+VC6 Heavy & Utility trucks
+VC7 SUVs & Wagons
+VC8 Lowriders
+VC9 Muscle cars
+VC10 Street racers
+VC11 Planes
+VC12 Helicopters
+VC13 Boats
+VC14 Light trucks & Vans
 black black
 white white
 blue blue
@@ -100,5 +105,979 @@ Spoiler Spoiler
 Vents Vents
 Wheels Wheels
 Stereo Stereo
-
-
+lo00 Bribe 1
+lo01 Bribe 10
+lo02 Bribe 11
+lo03 Bribe 12
+lo04 Bribe 13
+lo05 Bribe 14
+lo06 Bribe 15
+lo07 Bribe 16
+lo08 Bribe 17
+lo09 Bribe 18
+lo010 Bribe 19
+lo011 Bribe 2
+lo012 Bribe 20
+lo013 Bribe 21
+lo014 Bribe 22
+lo015 Bribe 23
+lo016 Bribe 24
+lo017 Bribe 25
+lo018 Bribe 26
+lo019 Bribe 27
+lo020 Bribe 28
+lo021 Bribe 29
+lo022 Bribe 3
+lo023 Bribe 30
+lo024 Bribe 31
+lo025 Bribe 32
+lo026 Bribe 33
+lo027 Bribe 34
+lo028 Bribe 35
+lo029 Bribe 36
+lo030 Bribe 37
+lo031 Bribe 38
+lo032 Bribe 39
+lo033 Bribe 4
+lo034 Bribe 40
+lo035 Bribe 41
+lo036 Bribe 42
+lo037 Bribe 43
+lo038 Bribe 44
+lo039 Bribe 45
+lo040 Bribe 46
+lo041 Bribe 47
+lo042 Bribe 48
+lo043 Bribe 5
+lo044 Bribe 6
+lo045 Bribe 7
+lo046 Bribe 8
+lo047 Bribe 9
+telpC0 Bribes
+telpC1 Custom
+lo20 Export 1
+lo21 Export 10
+lo22 Export 11
+lo23 Export 12
+lo24 Export 13
+lo25 Export 14
+lo26 Export 15
+lo27 Export 16
+lo28 Export 17
+lo29 Export 18
+lo210 Export 19
+lo211 Export 2
+lo212 Export 20
+lo213 Export 21
+lo214 Export 22
+lo215 Export 23
+lo216 Export 24
+lo217 Export 25
+lo218 Export 26
+lo219 Export 27
+lo220 Export 28
+lo221 Export 29
+lo222 Export 3
+lo223 Export 30
+lo224 Export 4
+lo225 Export 5
+lo226 Export 6
+lo227 Export 7
+lo228 Export 8
+lo229 Export 9
+telpC2 Exports
+lo30 Horseshoe 1
+lo31 Horseshoe 10
+lo32 Horseshoe 11
+lo33 Horseshoe 12
+lo34 Horseshoe 13
+lo35 Horseshoe 14
+lo36 Horseshoe 15
+lo37 Horseshoe 16
+lo38 Horseshoe 17
+lo39 Horseshoe 18
+lo310 Horseshoe 19
+lo311 Horseshoe 2
+lo312 Horseshoe 20
+lo313 Horseshoe 21
+lo314 Horseshoe 22
+lo315 Horseshoe 23
+lo316 Horseshoe 24
+lo317 Horseshoe 25
+lo318 Horseshoe 26
+lo319 Horseshoe 27
+lo320 Horseshoe 28
+lo321 Horseshoe 29
+lo322 Horseshoe 3
+lo323 Horseshoe 30
+lo324 Horseshoe 31
+lo325 Horseshoe 32
+lo326 Horseshoe 33
+lo327 Horseshoe 34
+lo328 Horseshoe 35
+lo329 Horseshoe 36
+lo330 Horseshoe 37
+lo331 Horseshoe 38
+lo332 Horseshoe 39
+lo333 Horseshoe 4
+lo334 Horseshoe 40
+lo335 Horseshoe 41
+lo336 Horseshoe 42
+lo337 Horseshoe 43
+lo338 Horseshoe 44
+lo339 Horseshoe 45
+lo340 Horseshoe 46
+lo341 Horseshoe 47
+lo342 Horseshoe 48
+lo343 Horseshoe 49
+lo344 Horseshoe 5
+lo345 Horseshoe 50
+lo346 Horseshoe 6
+lo347 Horseshoe 7
+lo348 Horseshoe 8
+lo349 Horseshoe 9
+telpC3 Horseshoes
+lo40 24/7 1
+lo41 24/7 2
+lo42 24/7 3
+lo43 24/7 4
+lo44 24/7 5
+lo45 24/7 6
+lo46 8-Track
+lo47 Airport baggage reclaim
+lo48 Airport ticket desk
+lo49 Ammunation 1
+lo410 Ammunation 2
+lo411 Ammunation 3
+lo412 Ammunation 4
+lo413 Ammunation 5
+lo414 Ammunation booths
+lo415 Ammunation range
+lo416 Andromada
+lo417 Area 51
+lo418 B Dups crack pad
+lo419 B Dups house
+lo420 Bank
+lo421 Bar
+lo422 Barbara room
+lo423 Barber 1
+lo424 Barber 2
+lo425 Barber 3
+lo426 Barn
+lo427 Big spread ranch
+lo428 Binco
+lo429 Blastin fools hallway
+lo430 Bloodbowl
+lo431 Blueberry warehouse
+lo432 Budget inn motel room
+lo433 Burger shot
+lo434 Cafe
+lo435 Car school
+lo436 Catigulas
+lo437 Catigulas basement
+lo438 Cj's house
+lo439 Club
+lo440 Cluckin bell
+lo441 Colonel Furhberger's
+lo442 Crack den
+lo443 Crack factory
+lo444 Denise room
+lo445 Didier sachs
+lo446 Dillimore gas station
+lo447 Dirt track
+lo448 FDC Janitors room
+lo449 Fanny batters
+lo450 Gang house
+lo451 Gant bridge diner
+lo452 Helena room
+lo453 Jays diner
+lo454 Jefferson motel
+lo455 Katie room
+lo456 Kickstart
+lo457 LS Atruim
+lo458 LS Garage
+lo459 LS gym
+lo460 LS police HQ
+lo461 LV Warehouse 1
+lo462 LV Warehouse 2
+lo463 LV gym
+lo464 LV police HQ
+lo465 Liberty city inside
+lo466 Liberty city outside
+lo467 Lil probe inn
+lo468 Lil probe inn toilet
+lo469 Madd Doggs mansion
+lo470 Meat factory
+lo471 Michelle room
+lo472 Millie room
+lo473 Millie's House
+lo474 Off track betting shop
+lo475 Og Locs house
+lo476 Place A
+lo477 Place B
+lo478 Place C
+lo479 Planning Department
+lo480 Planning dept
+lo481 Pleasure domes
+lo482 Prolaps
+lo483 RC Battlefield
+lo484 Rusty browns donuts
+lo485 Ryders house
+lo486 SF Bomb shop
+lo487 SF Garage
+lo488 SF gym
+lo489 SF police HQ
+lo490 Secret valley diner
+lo491 Sex shop
+lo492 Shamal
+lo493 Sherman dam
+lo494 Strip club
+lo495 Strip club private room
+lo496 Suburban
+lo497 Sweets garage
+lo498 Sweets house
+lo499 Tatoo parlour 1
+lo4100 Tatoo parlour 2
+lo4101 Tatoo parlour 3
+lo4102 Tiger skin brothel
+lo4103 Unnamed brothel
+lo4104 Unused safe house
+lo4105 Vice stadium
+lo4106 Victim
+lo4107 Warehouse 1
+lo4108 Warehouse 2
+lo4109 Welcome pump
+lo4110 Well stacked pizza
+lo4111 Woozies office
+lo4112 World of coq
+lo4113 Zeros RC shop
+lo4114 Zip
+telpC4 Interior
+lo50 Angel Pine Vice City Maps
+lo51 Back o Beyond Ghost Car
+lo52 Blueberry Liquor Store
+lo53 Blueberry Locals Only Shop
+lo54 Bone County Antena
+lo55 Bone County Area 69 (inside)
+lo56 Bone County Astro Drive-In
+lo57 Bone County Cave
+lo58 Bone County Lil' Probe Inn
+lo59 Bone County Los Brujas
+lo510 Bone County Regular Tom
+lo511 Bone County The Big Ear
+lo512 Bone County The Big Spread Ranch Strip Club
+lo513 Chiliad Mountain House on the slope
+lo514 Chiliad Mountain Top of Chiliad Mountain
+lo515 Dillimore Max Pane - Bulletproof Glass
+lo516 Dillimore Police Departament
+lo517 El Castillo del Diablo Mass Grave
+lo518 El Castillo del Diablo Snake Ferm
+lo519 Fern Ridge Catalina's Ex-boyfriends
+lo520 Flint County Nazca Symbol
+lo521 Flint County Suicidal Photographer
+lo522 Fort Carson Driveway Beagle
+lo523 Las Barrancas Hopi Ruins
+lo524 Las Barrancas Largest Cow
+lo525 Las Payasadas Largest Chicken
+lo526 Las Venturas Airport
+lo527 Las Venturas Caligula's Palace Casino
+lo528 Las Venturas Caligula's Palace Casino basement
+lo529 Las Venturas Casino Floor Casino
+lo530 Las Venturas Club
+lo531 Las Venturas Girls XXX Strip Club
+lo532 Las Venturas Lemmings Pedestrians
+lo533 Las Venturas Minigun - 01
+lo534 Las Venturas Minigun - 02
+lo535 Las Venturas Minigun - 03
+lo536 Las Venturas Nude Strippers Daily Strip Club
+lo537 Las Venturas Police Departament
+lo538 Las Venturas Sex shop
+lo539 Las Venturas The Craw Bar
+lo540 Las Venturas The Four Dragons Casino
+lo541 Las Venturas VRock Hotel
+lo542 Las Venturas Wedding Chapel Open 24HR
+lo543 Las Venturas Wedding Chapel Open 7 Days
+lo544 Las Venturas Welding & Weddings
+lo545 Liberty City Inside Marco's Bistro
+lo546 Liberty City Marco's Bistro
+lo547 Los Santos 8 Ball's Autos
+lo548 Los Santos Airport
+lo549 Los Santos Alhambra Club
+lo550 Los Santos Atrium
+lo551 Los Santos Big Smoke's Crack Palace
+lo552 Los Santos Big Smoke's Crack Palace (inside)
+lo553 Los Santos CJ's home
+lo554 Los Santos Candy Suxx Billboard
+lo555 Los Santos Cathay Theater
+lo556 Los Santos Cemetery
+lo557 Los Santos Colonel Fuhrberger's
+lo558 Los Santos Didier Sachs Shop
+lo559 Los Santos GTA III and GTA: Vice City logos
+lo560 Los Santos Ghost Graffiti (20:00-6:00)
+lo561 Los Santos Grotti (Ferrari) Billboard
+lo562 Los Santos Highest building of Los Santos
+lo563 Los Santos Inside Track Betting
+lo564 Los Santos Jefferson Hotel
+lo565 Los Santos Jesus Saves
+lo566 Los Santos Lemmings Pole
+lo567 Los Santos Lowrider Competition
+lo568 Los Santos Market Station
+lo569 Los Santos Observatory
+lo570 Los Santos Ocean Docks
+lo571 Los Santos Police Departament
+lo572 Los Santos Police brutality
+lo573 Los Santos Roboi's Food Mart
+lo574 Los Santos Stadium
+lo575 Los Santos Ten Green Bottles
+lo576 Los Santos The Pig Pen Strip Club
+lo577 Los Santos Tiki Theater
+lo578 Los Santos Triathalon
+lo579 Los Santos Verona Beach Gym
+lo580 Los Santos Vice City Hidden Package
+lo581 Los Santos Vinewood Sign
+lo582 Montgomery Biowaste Well
+lo583 Montgomery Inside Track Betting
+lo584 Palomino Creek Bank
+lo585 Palomino Creek Cementry
+lo586 Palomino Creek Empty Diner
+lo587 Palomino Creek Glowing headstones
+lo588 Palomino Creek Rusty Wheelchair
+lo589 Palomino Creek Triathalon
+lo590 Red County North Rock
+lo591 San Fierro Actual Piece of Cable
+lo592 San Fierro Airport
+lo593 San Fierro Big Pointy Building
+lo594 San Fierro Bridge Facts
+lo595 San Fierro Cargo Ship
+lo596 San Fierro Gaydar Station Club
+lo597 San Fierro Highest building of San Fierro
+lo598 San Fierro Hippy Shopper
+lo599 San Fierro Hippy Statue
+lo5100 San Fierro Michelle's Autorepair
+lo5101 San Fierro Misty's Club
+lo5102 San Fierro No Easter Eggs Up Here
+lo5103 San Fierro Otto's Autos
+lo5104 San Fierro USS Numnutz
+lo5105 San Fierro Wang Cars
+lo5106 San Fierro War Memorial
+lo5107 San Fierro Zero's RC Shop
+lo5108 San Fierro Zombotech Corporation
+lo5109 The Sherman Dam Generator Hall
+lo5110 The Sherman Dam Sherman Dam Memorial
+lo5111 Tierra Robada Aldea Malvada: the Lost Pueblo
+lo5112 Tierra Robada Phalic Rock
+lo5113 Verdant Meadows Abandoned Airfield
+telpC5 Map
+lo60 Oyster 1
+lo61 Oyster 10
+lo62 Oyster 11
+lo63 Oyster 12
+lo64 Oyster 13
+lo65 Oyster 14
+lo66 Oyster 15
+lo67 Oyster 16
+lo68 Oyster 17
+lo69 Oyster 18
+lo610 Oyster 19
+lo611 Oyster 2
+lo612 Oyster 20
+lo613 Oyster 21
+lo614 Oyster 22
+lo615 Oyster 23
+lo616 Oyster 24
+lo617 Oyster 25
+lo618 Oyster 26
+lo619 Oyster 27
+lo620 Oyster 28
+lo621 Oyster 29
+lo622 Oyster 3
+lo623 Oyster 30
+lo624 Oyster 31
+lo625 Oyster 32
+lo626 Oyster 33
+lo627 Oyster 34
+lo628 Oyster 35
+lo629 Oyster 36
+lo630 Oyster 37
+lo631 Oyster 38
+lo632 Oyster 39
+lo633 Oyster 4
+lo634 Oyster 40
+lo635 Oyster 41
+lo636 Oyster 42
+lo637 Oyster 43
+lo638 Oyster 44
+lo639 Oyster 45
+lo640 Oyster 46
+lo641 Oyster 47
+lo642 Oyster 48
+lo643 Oyster 49
+lo644 Oyster 5
+lo645 Oyster 50
+lo646 Oyster 6
+lo647 Oyster 7
+lo648 Oyster 8
+lo649 Oyster 9
+telpC6 Oysters
+lo70 Ammunation sprite, Angel Pine, CS
+lo71 Ammunation sprite, Blueberry, CS
+lo72 Ammunation sprite, Bone County, CS
+lo73 Ammunation sprite, Come-A-Lot, CS
+lo74 Ammunation sprite, Downtown Los Santos, CS
+lo75 Ammunation sprite, El Quebrados, CS
+lo76 Ammunation sprite, Fort Carson, CS
+lo77 Ammunation sprite, Ocean Flats, CS
+lo78 Ammunation sprite, Old Venturas Strip, CS
+lo79 Ammunation sprite, Palomino Creek, CS
+lo710 Ammunation sprite, Willowfield, CS
+lo711 Barber sprite, Dillimore, CS
+lo712 Barber sprite, Idlewood, CS
+lo713 Barber sprite, Marina, CS
+lo714 Barber sprite, Playa del Seville, CS
+lo715 Barber sprite, Queens, CS
+lo716 Barber sprite, Redsands East, CS
+lo717 Bulldozer sprite, Hunter Quarry, CS
+lo718 Burgershot sprite, Downtown, CS
+lo719 Burgershot sprite, Garcia, CS
+lo720 Burgershot sprite, Juniper Hollow, CS
+lo721 Burgershot sprite, Marina, CS
+lo722 Burgershot sprite, Old Venturas Strip, CS
+lo723 Burgershot sprite, Redsands East, CS
+lo724 Burgershot sprite, Spinybed, CS
+lo725 Burgershot sprite, Temple, CS
+lo726 Burgershot sprite, Whitewood Estates, CS
+lo727 Chicken sprite, Angel Pine, CS
+lo728 Chicken sprite, Bone County, CS
+lo729 Chicken sprite, Creek, CS
+lo730 Chicken sprite, Downtown, CS
+lo731 Chicken sprite, East Los Santos, CS
+lo732 Chicken sprite, Market, CS
+lo733 Chicken sprite, Ocean Flats, CS
+lo734 Chicken sprite, Old Venturas Strip, CS
+lo735 Chicken sprite, Pilgrim, CS
+lo736 Chicken sprite, The Emerald Isle, CS
+lo737 Chicken sprite, Tierra Robada, CS
+lo738 Chicken sprite, Willowfield, CS
+lo739 Emmetgun sprite, Willowfield, CS
+lo740 Flag sprite, Downtown, CS
+lo741 Flag sprite, LVA Freight Depot, CS
+lo742 Flag sprite, Las Venturas Airport, CS
+lo743 Flag sprite, Little Mexico, CS
+lo744 Girlfriend sprite, Downtown, CS
+lo745 Girlfriend sprite, El Quebrados, CS
+lo746 Girlfriend sprite, Flint Range, CS
+lo747 Girlfriend sprite, Ganton, CS
+lo748 Girlfriend sprite, Paradiso, CS
+lo749 Girlfriend sprite, Prickle Pine, CS
+lo750 Gym sprite, Ganton, CS
+lo751 Gym sprite, Garcia, CS
+lo752 Gym sprite, Redsands East, CS
+lo753 Modgarage sprite, Come-A-Lot, CS
+lo754 Modgarage sprite, Doherty, CS
+lo755 Modgarage sprite, Ocean Flats, CS
+lo756 Modgarage sprite, Temple, CS
+lo757 Modgarage sprite, Willowfield, CS
+lo758 No sprite, Easter Basin, CS
+lo759 No sprite, Hunter Quarry, CS
+lo760 No sprite, Los Santos International, CS
+lo761 No sprite, San Fierro, CS
+lo762 No sprite, Whetstone, CS
+lo763 No sprite, Whitewood Estates, CS
+lo764 Pizza sprite, Blueberry, CS
+lo765 Pizza sprite, Creek, CS
+lo766 Pizza sprite, Esplanade North, CS
+lo767 Pizza sprite, Financial, CS
+lo768 Pizza sprite, Idlewood, CS
+lo769 Pizza sprite, Palomino Creek, CS
+lo770 Pizza sprite, Roca Escalante, CS
+lo771 Pizza sprite, Starfish Casino, CS
+lo772 Pizza sprite, The Emerald Isle, CS
+lo773 Race sprite, Blackfield, CS
+lo774 Race sprite, East Beach, CS
+lo775 Race sprite, Foster Valley, CS
+lo776 Savegame sprite, Angel Pine, CS
+lo777 Savegame sprite, Blueberry, CS
+lo778 Savegame sprite, Calton Heights, CS
+lo779 Savegame sprite, Chinatown, CS
+lo780 Savegame sprite, Creek, CS
+lo781 Savegame sprite, Dillimore, CS
+lo782 Savegame sprite, Doherty, CS
+lo783 Savegame sprite, El Quebrados, CS
+lo784 Savegame sprite, Fern Ridge, CS
+lo785 Savegame sprite, Fort Carson, CS
+lo786 Savegame sprite, Hashbury, CS
+lo787 Savegame sprite, Jefferson, CS
+lo788 Savegame sprite, Mulholland, CS
+lo789 Savegame sprite, Old Venturas Strip, CS
+lo790 Savegame sprite, Palomino Creek, CS
+lo791 Savegame sprite, Paradiso, CS
+lo792 Savegame sprite, Pirates in Men's Pants, CS
+lo793 Savegame sprite, Prickle Pine, CS
+lo794 Savegame sprite, Queens, CS
+lo795 Savegame sprite, Redsands West, CS
+lo796 Savegame sprite, Rockshore West, CS
+lo797 Savegame sprite, San Andreas, CS
+lo798 Savegame sprite, Santa Maria Beach, CS
+lo799 Savegame sprite, The Camel's Toe, CS
+lo7100 Savegame sprite, The Clown's Pocket, CS
+lo7101 Savegame sprite, The Four Dragons Casino, CS
+lo7102 Savegame sprite, Tierra Robada, CS
+lo7103 Savegame sprite, Verdant Bluffs, CS
+lo7104 Savegame sprite, Verdant Meadows, CS
+lo7105 Savegame sprite, Verona Beach, CS
+lo7106 Savegame sprite, Whetstone, CS
+lo7107 Savegame sprite, Whitewood Estates, CS
+lo7108 Savegame sprite, Willowfield, CS
+lo7109 School sprite, Bayside Marina, CS
+lo7110 School sprite, Blackfield, CS
+lo7111 School sprite, San Andreas, CS
+lo7112 School sprite, Verdant Meadows, CS
+lo7113 Sprayshop sprite, Dillimore, CS
+lo7114 Sprayshop sprite, Downtown, CS
+lo7115 Sprayshop sprite, El Quebrados, CS
+lo7116 Sprayshop sprite, Fort Carson, CS
+lo7117 Sprayshop sprite, Idlewood, CS
+lo7118 Sprayshop sprite, Juniper Hollow, CS
+lo7119 Sprayshop sprite, Redsands East, CS
+lo7120 Sprayshop sprite, Santa Maria Beach, CS
+lo7121 Sprayshop sprite, Temple, CS
+lo7122 Tattoo sprite, Hashbury, CS
+lo7123 Tattoo sprite, Idlewood, CS
+lo7124 Tattoo sprite, Redsands East, CS
+lo7125 Tattoo sprite, Willowfield, CS
+lo7126 Truck sprite, Flint County, CS
+lo7127 Tshirt sprite, Creek, CS
+lo7128 Tshirt sprite, Downtown Los Santos, CS
+lo7129 Tshirt sprite, Downtown, CS
+lo7130 Tshirt sprite, Ganton, CS
+lo7131 Tshirt sprite, Hashbury, CS
+lo7132 Tshirt sprite, Jefferson, CS
+lo7133 Tshirt sprite, Juniper Hill, CS
+lo7134 Tshirt sprite, Las Venturas Airport, CS
+lo7135 Tshirt sprite, Rodeo, CS
+lo7136 Tshirt sprite, Starfish Casino, CS
+lo7137 Tshirt sprite, The Emerald Isle, CS
+telpC7 Radar
+lo80 Snapshot 1
+lo81 Snapshot 10
+lo82 Snapshot 11
+lo83 Snapshot 12
+lo84 Snapshot 13
+lo85 Snapshot 14
+lo86 Snapshot 15
+lo87 Snapshot 16
+lo88 Snapshot 17
+lo89 Snapshot 18
+lo810 Snapshot 19
+lo811 Snapshot 2
+lo812 Snapshot 20
+lo813 Snapshot 21
+lo814 Snapshot 22
+lo815 Snapshot 23
+lo816 Snapshot 24
+lo817 Snapshot 25
+lo818 Snapshot 26
+lo819 Snapshot 27
+lo820 Snapshot 28
+lo821 Snapshot 29
+lo822 Snapshot 3
+lo823 Snapshot 30
+lo824 Snapshot 31
+lo825 Snapshot 32
+lo826 Snapshot 33
+lo827 Snapshot 34
+lo828 Snapshot 35
+lo829 Snapshot 36
+lo830 Snapshot 37
+lo831 Snapshot 38
+lo832 Snapshot 39
+lo833 Snapshot 4
+lo834 Snapshot 40
+lo835 Snapshot 41
+lo836 Snapshot 42
+lo837 Snapshot 43
+lo838 Snapshot 44
+lo839 Snapshot 45
+lo840 Snapshot 46
+lo841 Snapshot 47
+lo842 Snapshot 48
+lo843 Snapshot 49
+lo844 Snapshot 5
+lo845 Snapshot 50
+lo846 Snapshot 6
+lo847 Snapshot 7
+lo848 Snapshot 8
+lo849 Snapshot 9
+telpC8 Snapshots
+lo90 Tag 1
+lo91 Tag 10
+lo92 Tag 100
+lo93 Tag 11
+lo94 Tag 12
+lo95 Tag 13
+lo96 Tag 14
+lo97 Tag 15
+lo98 Tag 16
+lo99 Tag 17
+lo910 Tag 18
+lo911 Tag 19
+lo912 Tag 2
+lo913 Tag 20
+lo914 Tag 21
+lo915 Tag 22
+lo916 Tag 23
+lo917 Tag 24
+lo918 Tag 25
+lo919 Tag 26
+lo920 Tag 27
+lo921 Tag 28
+lo922 Tag 29
+lo923 Tag 3
+lo924 Tag 30
+lo925 Tag 31
+lo926 Tag 32
+lo927 Tag 33
+lo928 Tag 34
+lo929 Tag 35
+lo930 Tag 36
+lo931 Tag 37
+lo932 Tag 38
+lo933 Tag 39
+lo934 Tag 4
+lo935 Tag 40
+lo936 Tag 41
+lo937 Tag 42
+lo938 Tag 43
+lo939 Tag 44
+lo940 Tag 45
+lo941 Tag 46
+lo942 Tag 47
+lo943 Tag 48
+lo944 Tag 49
+lo945 Tag 5
+lo946 Tag 50
+lo947 Tag 51
+lo948 Tag 52
+lo949 Tag 53
+lo950 Tag 54
+lo951 Tag 55
+lo952 Tag 56
+lo953 Tag 57
+lo954 Tag 58
+lo955 Tag 59
+lo956 Tag 6
+lo957 Tag 60
+lo958 Tag 61
+lo959 Tag 62
+lo960 Tag 63
+lo961 Tag 64
+lo962 Tag 65
+lo963 Tag 66
+lo964 Tag 67
+lo965 Tag 68
+lo966 Tag 69
+lo967 Tag 7
+lo968 Tag 70
+lo969 Tag 71
+lo970 Tag 72
+lo971 Tag 73
+lo972 Tag 74
+lo973 Tag 75
+lo974 Tag 76
+lo975 Tag 77
+lo976 Tag 78
+lo977 Tag 79
+lo978 Tag 8
+lo979 Tag 80
+lo980 Tag 81
+lo981 Tag 82
+lo982 Tag 83
+lo983 Tag 84
+lo984 Tag 85
+lo985 Tag 86
+lo986 Tag 87
+lo987 Tag 88
+lo988 Tag 89
+lo989 Tag 9
+lo990 Tag 90
+lo991 Tag 91
+lo992 Tag 92
+lo993 Tag 93
+lo994 Tag 94
+lo995 Tag 95
+lo996 Tag 96
+lo997 Tag 97
+lo998 Tag 98
+lo999 Tag 99
+telpC9 Tags
+lo100 Unique jump 1
+lo101 Unique jump 10
+lo102 Unique jump 11
+lo103 Unique jump 12
+lo104 Unique jump 13
+lo105 Unique jump 14
+lo106 Unique jump 15
+lo107 Unique jump 16
+lo108 Unique jump 17
+lo109 Unique jump 18
+lo1010 Unique jump 19
+lo1011 Unique jump 2
+lo1012 Unique jump 20
+lo1013 Unique jump 21
+lo1014 Unique jump 22
+lo1015 Unique jump 23
+lo1016 Unique jump 24
+lo1017 Unique jump 25
+lo1018 Unique jump 26
+lo1019 Unique jump 27
+lo1020 Unique jump 28
+lo1021 Unique jump 29
+lo1022 Unique jump 3
+lo1023 Unique jump 30
+lo1024 Unique jump 31
+lo1025 Unique jump 32
+lo1026 Unique jump 33
+lo1027 Unique jump 34
+lo1028 Unique jump 35
+lo1029 Unique jump 36
+lo1030 Unique jump 37
+lo1031 Unique jump 38
+lo1032 Unique jump 39
+lo1033 Unique jump 4
+lo1034 Unique jump 40
+lo1035 Unique jump 41
+lo1036 Unique jump 42
+lo1037 Unique jump 43
+lo1038 Unique jump 44
+lo1039 Unique jump 45
+lo1040 Unique jump 46
+lo1041 Unique jump 47
+lo1042 Unique jump 48
+lo1043 Unique jump 49
+lo1044 Unique jump 5
+lo1045 Unique jump 50
+lo1046 Unique jump 51
+lo1047 Unique jump 52
+lo1048 Unique jump 53
+lo1049 Unique jump 54
+lo1050 Unique jump 55
+lo1051 Unique jump 56
+lo1052 Unique jump 57
+lo1053 Unique jump 58
+lo1054 Unique jump 59
+lo1055 Unique jump 6
+lo1056 Unique jump 60
+lo1057 Unique jump 61
+lo1058 Unique jump 62
+lo1059 Unique jump 63
+lo1060 Unique jump 64
+lo1061 Unique jump 65
+lo1062 Unique jump 66
+lo1063 Unique jump 67
+lo1064 Unique jump 68
+lo1065 Unique jump 69
+lo1066 Unique jump 7
+lo1067 Unique jump 70
+lo1068 Unique jump 8
+lo1069 Unique jump 9
+telpC10 Unique jumps
+lo110 Weapon 1
+lo111 Weapon 10
+lo112 Weapon 100
+lo113 Weapon 101
+lo114 Weapon 102
+lo115 Weapon 103
+lo116 Weapon 104
+lo117 Weapon 105
+lo118 Weapon 106
+lo119 Weapon 107
+lo1110 Weapon 108
+lo1111 Weapon 109
+lo1112 Weapon 11
+lo1113 Weapon 110
+lo1114 Weapon 111
+lo1115 Weapon 112
+lo1116 Weapon 113
+lo1117 Weapon 114
+lo1118 Weapon 115
+lo1119 Weapon 116
+lo1120 Weapon 117
+lo1121 Weapon 118
+lo1122 Weapon 119
+lo1123 Weapon 12
+lo1124 Weapon 120
+lo1125 Weapon 121
+lo1126 Weapon 122
+lo1127 Weapon 123
+lo1128 Weapon 124
+lo1129 Weapon 125
+lo1130 Weapon 126
+lo1131 Weapon 127
+lo1132 Weapon 128
+lo1133 Weapon 129
+lo1134 Weapon 13
+lo1135 Weapon 130
+lo1136 Weapon 131
+lo1137 Weapon 132
+lo1138 Weapon 133
+lo1139 Weapon 134
+lo1140 Weapon 135
+lo1141 Weapon 136
+lo1142 Weapon 137
+lo1143 Weapon 138
+lo1144 Weapon 139
+lo1145 Weapon 14
+lo1146 Weapon 140
+lo1147 Weapon 141
+lo1148 Weapon 142
+lo1149 Weapon 143
+lo1150 Weapon 144
+lo1151 Weapon 145
+lo1152 Weapon 146
+lo1153 Weapon 147
+lo1154 Weapon 148
+lo1155 Weapon 149
+lo1156 Weapon 15
+lo1157 Weapon 150
+lo1158 Weapon 151
+lo1159 Weapon 152
+lo1160 Weapon 153
+lo1161 Weapon 154
+lo1162 Weapon 155
+lo1163 Weapon 156
+lo1164 Weapon 157
+lo1165 Weapon 158
+lo1166 Weapon 159
+lo1167 Weapon 16
+lo1168 Weapon 160
+lo1169 Weapon 161
+lo1170 Weapon 162
+lo1171 Weapon 163
+lo1172 Weapon 164
+lo1173 Weapon 165
+lo1174 Weapon 166
+lo1175 Weapon 167
+lo1176 Weapon 168
+lo1177 Weapon 169
+lo1178 Weapon 17
+lo1179 Weapon 170
+lo1180 Weapon 171
+lo1181 Weapon 172
+lo1182 Weapon 173
+lo1183 Weapon 174
+lo1184 Weapon 175
+lo1185 Weapon 176
+lo1186 Weapon 177
+lo1187 Weapon 178
+lo1188 Weapon 179
+lo1189 Weapon 18
+lo1190 Weapon 180
+lo1191 Weapon 181
+lo1192 Weapon 182
+lo1193 Weapon 183
+lo1194 Weapon 184
+lo1195 Weapon 185
+lo1196 Weapon 186
+lo1197 Weapon 187
+lo1198 Weapon 188
+lo1199 Weapon 189
+lo11100 Weapon 19
+lo11101 Weapon 190
+lo11102 Weapon 191
+lo11103 Weapon 192
+lo11104 Weapon 193
+lo11105 Weapon 194
+lo11106 Weapon 195
+lo11107 Weapon 196
+lo11108 Weapon 197
+lo11109 Weapon 198
+lo11110 Weapon 199
+lo11111 Weapon 2
+lo11112 Weapon 20
+lo11113 Weapon 21
+lo11114 Weapon 22
+lo11115 Weapon 23
+lo11116 Weapon 24
+lo11117 Weapon 25
+lo11118 Weapon 26
+lo11119 Weapon 27
+lo11120 Weapon 28
+lo11121 Weapon 29
+lo11122 Weapon 3
+lo11123 Weapon 30
+lo11124 Weapon 31
+lo11125 Weapon 32
+lo11126 Weapon 33
+lo11127 Weapon 34
+lo11128 Weapon 35
+lo11129 Weapon 36
+lo11130 Weapon 37
+lo11131 Weapon 38
+lo11132 Weapon 39
+lo11133 Weapon 4
+lo11134 Weapon 40
+lo11135 Weapon 41
+lo11136 Weapon 42
+lo11137 Weapon 43
+lo11138 Weapon 44
+lo11139 Weapon 45
+lo11140 Weapon 46
+lo11141 Weapon 47
+lo11142 Weapon 48
+lo11143 Weapon 49
+lo11144 Weapon 5
+lo11145 Weapon 50
+lo11146 Weapon 51
+lo11147 Weapon 52
+lo11148 Weapon 53
+lo11149 Weapon 54
+lo11150 Weapon 55
+lo11151 Weapon 56
+lo11152 Weapon 57
+lo11153 Weapon 58
+lo11154 Weapon 59
+lo11155 Weapon 6
+lo11156 Weapon 60
+lo11157 Weapon 61
+lo11158 Weapon 62
+lo11159 Weapon 63
+lo11160 Weapon 64
+lo11161 Weapon 65
+lo11162 Weapon 66
+lo11163 Weapon 67
+lo11164 Weapon 68
+lo11165 Weapon 69
+lo11166 Weapon 7
+lo11167 Weapon 70
+lo11168 Weapon 71
+lo11169 Weapon 72
+lo11170 Weapon 73
+lo11171 Weapon 74
+lo11172 Weapon 75
+lo11173 Weapon 76
+lo11174 Weapon 77
+lo11175 Weapon 78
+lo11176 Weapon 79
+lo11177 Weapon 8
+lo11178 Weapon 80
+lo11179 Weapon 81
+lo11180 Weapon 82
+lo11181 Weapon 83
+lo11182 Weapon 84
+lo11183 Weapon 85
+lo11184 Weapon 86
+lo11185 Weapon 87
+lo11186 Weapon 88
+lo11187 Weapon 89
+lo11188 Weapon 9
+lo11189 Weapon 90
+lo11190 Weapon 91
+lo11191 Weapon 92
+lo11192 Weapon 93
+lo11193 Weapon 94
+lo11194 Weapon 95
+lo11195 Weapon 96
+lo11196 Weapon 97
+lo11197 Weapon 98
+lo11198 Weapon 99
+telpC11 Weapons
